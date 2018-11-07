@@ -109,7 +109,7 @@ colcon build --symlink-install --packages-skip ros1_bridge
 colcon build --symlink-install --packages-select ros1_bridge --cmake-force-configure
 ```
 15. All done. You should be able to have your bridge up and running when you:
-    i. Open a terminal and source the ROS1 environment
-    ii. Then, source the ROS2 environment
-    iii. ros2 run ros1_bridge sb_topic_x
+    1. Open a terminal and source the ROS1 environment
+    2. Then, source the ROS2 environment
+    3. ros2 run ros1_bridge sb_topic_x
 
